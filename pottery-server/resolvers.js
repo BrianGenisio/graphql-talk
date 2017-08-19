@@ -12,7 +12,7 @@ function createProjectMutation(params) {
     return createProject(params.name);
 }
 
-var root = {
+const root = {
     projects: projectsResolver,
 
     createProject: createProjectMutation,

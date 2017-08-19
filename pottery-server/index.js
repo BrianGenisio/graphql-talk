@@ -1,6 +1,6 @@
-var { graphql } = require('graphql');
-var { schema } = require('./schema.js');
-var { root } = require('./resolvers.js');
+const { graphql } = require('graphql');
+const { schema } = require('./schema.js');
+const { root } = require('./resolvers.js');
 
 const mutationDoc = `mutation {
     first: createProject(name: "something new") {

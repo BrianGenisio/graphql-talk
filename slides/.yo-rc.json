@@ -1,0 +1,9 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "GraphQL",
+    "packageVersion": "0.0.0",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": false
+  }
+}

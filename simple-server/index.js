@@ -1,13 +1,21 @@
-var { graphql, buildSchema } = require('graphql');
+const { graphql, buildSchema } = require('graphql');
 
-var schema = buildSchema(`
+const schema = buildSchema(`
   type Query {
     hello: String
   }
 `);
 
-var root = { hello: () => 'Hello world!' };
+const root = {
+  hello: () => 'Hello world!'
+};
 
-graphql(schema, '{ hello }', root).then((response) => {
+const queryDoc = `
+  query {
+    hello
+  }
+`
+
+graphql(schema, queryDoc, root).then((response) => {
   console.log(response);
 });

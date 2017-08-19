@@ -1,6 +1,6 @@
-var { buildSchema } = require('graphql');
+const { buildSchema } = require('graphql');
 
-var schema = `
+const schema = `
   type Project {
       id: ID!
       name: String

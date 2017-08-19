@@ -1,8 +1,8 @@
-var express = require('express');
-var graphqlHTTP = require('express-graphql');
+const express = require('express');
+const graphqlHTTP = require('express-graphql');
 
-var { schema } = require('./schema.js');
-var { root } = require('./resolvers.js');
+const { schema } = require('./schema.js');
+const { root } = require('./resolvers.js');
 
 const mutationDoc = `mutation {
     first: createProject(name: "something new") {

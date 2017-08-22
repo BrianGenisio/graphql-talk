@@ -1,3 +1,3 @@
-##  1. What is GraphQL
+##  What is GraphQL? <!-- .element: data-theme="ka-subtitle" -->
 
-This is a new Markdown slide
+Describe what GQL is

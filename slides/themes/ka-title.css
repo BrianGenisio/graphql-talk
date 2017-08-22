@@ -29,7 +29,7 @@ body {
   background: #bee4fd;
   text-shadow: none; }
 
-.reveal {  
+.reveal {
   display: flex !important;
   align-items: flex-end;
 }
@@ -66,11 +66,12 @@ body {
   }
 
 .reveal h2 {
-  color: #BABEC2;
-  font-size: 4vh;
+    font-size: 6vh;
   }
 
 .reveal h3 {
+    color: #BABEC2;
+    font-size: 4vh;
   }
 
 .reveal h4 {

@@ -1,4 +1,5 @@
 
-# Open source & you <!-- .element: data-theme="ka-title" -->
+# GraphQL  <!-- .element: data-theme="ka-title" -->
+## Flexible APIs for Adaptive Clients
 
-## EMILY E (& ALL THE OTHERS WHO WRITE OPEN-SOURCE)
+### Brian Genisio

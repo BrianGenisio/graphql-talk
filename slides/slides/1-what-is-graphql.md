@@ -1,3 +1,3 @@
 ##  What is GraphQL? <!-- .element: data-theme="ka-subtitle" -->
 
-Describe what GQL is
+> GraphQL is an open spec for a flexible API layer. <!-- .element: class="fragment" -->

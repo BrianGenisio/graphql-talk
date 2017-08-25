@@ -1,3 +1,7 @@
-##  1. What is GraphQL -- transport agnostic <!-- .element: data-theme="ka-content" -->
+##  Transport agnostic <!-- .element: data-theme="ka-content" -->
+### Make queries via:
 
-This is a new Markdown slide
+- HTTP <!-- .element: class="fragment" -->
+- Command line <!-- .element: class="fragment" -->
+- TCP <!-- .element: class="fragment" -->
+- Any RPC <!-- .element: class="fragment" -->

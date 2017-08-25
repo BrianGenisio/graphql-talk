@@ -1,3 +1,14 @@
-##  2. What problems does it solve? -- vs REST <!-- .element: data-theme="ka-content" -->
+##  GraphQL vs REST <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+|                   | GraphQL  | REST  |
+| ------------------|:--------:| -----:|
+| Resources         | X        | X     |
+| Return JSON       | X        | X     |
+| Multiple Endpoints|          | X     |
+| Infinite Nesting  |          | X     |
+| Types             | X        |       |
+| Introspection     | X        |       |
+| Arbitrary Data    | X        |       |
+| Multiple Queries  | X        |       |
+| Contextual Data   | X        |       |
+| Separate Mutations| X        |       |

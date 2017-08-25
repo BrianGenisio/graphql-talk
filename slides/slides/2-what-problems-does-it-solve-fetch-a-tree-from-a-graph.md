@@ -1,3 +1,3 @@
-##  2. What problems does it solve? -- fetch a tree from a graph <!-- .element: data-theme="ka-content" -->
+##  Start with a graph of data <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+![Star Wars Graph](/resources/sw-graph.png)

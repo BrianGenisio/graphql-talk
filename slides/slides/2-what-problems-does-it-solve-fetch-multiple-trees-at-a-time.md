@@ -1,3 +1,17 @@
-##  2. What problems does it solve? -- fetch multiple trees at a time <!-- .element: data-theme="ka-content" -->
+##  Fetch multiple trees at a time <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+  allPeople(first: 10) {
+    people {
+      name
+    }
+  }
+
+  allFilms(first: 10) {
+    films {
+      title
+    }
+  }
+}
+```

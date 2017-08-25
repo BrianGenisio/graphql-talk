@@ -1,3 +1,3 @@
-##  2. What problems does it solve? -- deprecation <!-- .element: data-theme="ka-content" -->
+##  Deprecation <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+Fields can be deprecated, and passed down via type information

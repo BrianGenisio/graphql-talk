@@ -1,3 +1,1 @@
-##  4. Servers <!-- .element: data-theme="ka-subtitle" -->
-
-This is a new Markdown slide
+##  Servers <!-- .element: data-theme="ka-subtitle" -->

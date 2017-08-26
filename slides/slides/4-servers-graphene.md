@@ -1,3 +1,3 @@
-##  4. Servers -- Graphene <!-- .element: data-theme="ka-content" -->
+##  Graphene <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+A GraphQL library for developing servers in Python

@@ -1,1 +1,1 @@
-##  2. What problems does it solve? <!-- .element: data-theme="ka-subtitle" -->
+##  What problems does it solve? <!-- .element: data-theme="ka-subtitle" -->

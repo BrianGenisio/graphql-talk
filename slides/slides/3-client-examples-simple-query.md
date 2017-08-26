@@ -1,3 +1,11 @@
-##  3. Client Examples -- Simple query <!-- .element: data-theme="ka-content" -->
+##  3. A simple query <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+  allPeople {
+    people {
+      name
+    }
+  }
+}
+```

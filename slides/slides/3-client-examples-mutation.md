@@ -1,3 +1,17 @@
-##  3. Client Examples -- mutation <!-- .element: data-theme="ka-content" -->
+##  Mutations <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+### Find the issue (subject ID) to comment on
+```
+query {
+  user(login:"briangenisio") {
+    repository(name:"MyRecipeBox") {
+      issues(first:10) {
+        nodes {
+          id
+          title
+        }
+      }
+    }
+  }
+}
+```

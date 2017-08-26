@@ -174,9 +174,9 @@ body {
 
 .reveal pre code {
   font-family: monospace !important;
-  font-size: 5vh;
+  font-size: 4vh;
   display: block;
-
+  max-height: 60vh;
   overflow: auto;
   line-height: 5vh;
 

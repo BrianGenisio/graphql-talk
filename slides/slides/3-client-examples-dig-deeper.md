@@ -1,3 +1,24 @@
-##  3. Client Examples -- Dig deeper <!-- .element: data-theme="ka-content" -->
+##  Dig deeper <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+  allPeople {
+    people {
+      id
+      name
+      hairColor
+      homeworld {
+        name
+        population
+      }
+
+      filmConnection {
+        films {
+          id
+          title
+        }
+      }
+    }
+  }
+}
+```

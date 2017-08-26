@@ -1,3 +1,15 @@
-##  3. Client Examples -- filters <!-- .element: data-theme="ka-content" -->
+##  Filters <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+  search(type:REPOSITORY, query: "graphql", first:100) {
+    nodes {
+      ... on Repository {
+        id
+        nameWithOwner
+        description
+      }
+    }
+  }
+}
+```

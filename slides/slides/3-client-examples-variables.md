@@ -1,3 +1,21 @@
-##  3. Client Examples -- variables <!-- .element: data-theme="ka-content" -->
+##  Variables <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query searchRepos($query: String!){
+  search(type:REPOSITORY, query: $query, first:100) {
+    nodes {
+      ... on Repository {
+        id
+        nameWithOwner
+        description
+      }
+    }
+  }
+}
+```
+
+```JSON
+{
+  "query": "graphql"
+}
+```

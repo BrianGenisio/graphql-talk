@@ -1,3 +1,3 @@
-##  3. Client Examples -- Graphiql <!-- .element: data-theme="ka-content" -->
+##  Graphiql <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+A type-aware UI for developing queries

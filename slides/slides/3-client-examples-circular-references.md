@@ -1,3 +1,38 @@
-##  3. Client Examples -- circular references <!-- .element: data-theme="ka-content" -->
+##  Circular references <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+  allPeople {
+    people {
+      id
+      name
+      hairColor
+      homeworld {
+        name
+        population
+
+        filmConnection {
+          films {
+            id
+            title
+
+            characterConnection {
+              characters {
+                id
+                name
+              }
+            }
+          }
+        }
+      }
+
+      filmConnection {
+        films {
+          id
+          title
+        }
+      }
+    }
+  }
+}
+```

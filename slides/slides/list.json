@@ -44,6 +44,7 @@
     "8-what-about-authorization.md",
     "8-what-about-paging.md",
     "8-what-about-n-1.md",
+    "8-what-about-n-1-2.md",
     "8-what-about-finding-expensive-queries.md"],
     ["9-api-design-best-practices.md",
     "9-api-design-best-practices-think-in-graphs.md",

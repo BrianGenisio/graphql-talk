@@ -1,3 +1,5 @@
-##  8. What about? -- Paging <!-- .element: data-theme="ka-content" -->
+##  Paging <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+- Use Nodes/Edges paradigm
+- Relay.js "standard"
+- Paging cursors before, after, first, last

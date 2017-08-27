@@ -1,3 +1,9 @@
-##  8. What about? -- N+1 <!-- .element: data-theme="ka-content" -->
+##  N+1 -- [DataLoader](https://github.com/facebook/dataloader) <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+Naive approach
+```js
+function fetchItemById(id: string): Promise<Item> {}
+fetchItemById(id1);
+fetchItemById(id2);
+fetchItemById(id1);
+```

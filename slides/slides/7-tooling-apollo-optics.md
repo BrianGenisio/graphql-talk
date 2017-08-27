@@ -1,3 +1,3 @@
-##  7. Tooling -- Apollo Optics <!-- .element: data-theme="ka-content" -->
+##  Apollo Optics <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+![Apollo Optics](/resources/apollo-optics.png) <!-- .element: width="800px" -->

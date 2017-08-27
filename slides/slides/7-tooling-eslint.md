@@ -1,3 +1,7 @@
-##  7. Tooling -- ESLint <!-- .element: data-theme="ka-content" -->
+##  ESLint <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+[eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql)
+
+[fetch-graphql-schema](https://github.com/yoctol/fetch-graphql-schema)
+
+![eslint-plugin-graphql](/resources/eslint.png)

@@ -53,6 +53,8 @@
     "9-api-design-best-practices-abstract-your-business-logic.md"],
     ["10-problems-with-gql.md",
     "10-problems-with-gql-infinite-nesting.md",
+    "10-problems-with-gql-infinite-nesting-2.md",
+    "10-problems-with-gql-infinite-nesting-3.md",
     "10-problems-with-gql-expensive-queries.md",
     "10-problems-with-gql-n-1.md",
     "10-problems-with-gql-over-fetching-eg-ids.md",

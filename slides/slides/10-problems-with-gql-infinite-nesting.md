@@ -1,3 +1,17 @@
-##  10. Problems with GQL? -- Infinite Nesting <!-- .element: data-theme="ka-content" -->
+##  Infinite Nesting <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+    comments(articleId: $articleId) {
+        author, text, replies {
+            author, text, replies {
+                author, text, replies {
+                    author, text, replies {
+                        author, text
+                    }
+                }
+            }
+        }
+    }
+}
+```

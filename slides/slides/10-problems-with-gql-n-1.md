@@ -1,3 +1,5 @@
-##  10. Problems with GQL? -- N+1 <!-- .element: data-theme="ka-content" -->
+##  N+1 <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+- We talked about this <!-- .element: class="fragment" -->
+- Remember? <!-- .element: class="fragment" -->
+- Still a problem if you don't solve it <!-- .element: class="fragment" -->

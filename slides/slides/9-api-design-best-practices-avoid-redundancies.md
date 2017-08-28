@@ -1,3 +1,12 @@
-##  9. API Design Best Practices -- avoid redundancies <!-- .element: data-theme="ka-content" -->
+##  Avoid redundancies <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+```
+query {
+    person {
+        parentNames
+        parent {
+            names
+        }
+    }
+}
+```

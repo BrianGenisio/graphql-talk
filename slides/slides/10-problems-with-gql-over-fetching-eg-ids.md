@@ -1,3 +1,12 @@
-##  10. Problems with GQL? -- Over-fetching eg IDs <!-- .element: data-theme="ka-content" -->
+##  Over-fetching from the DB <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+Example
+```
+query {
+    students {
+        assignments {
+            id
+        }
+    }
+}
+```

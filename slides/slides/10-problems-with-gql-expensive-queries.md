@@ -1,3 +1,5 @@
-##  10. Problems with GQL? -- Expensive queries  <!-- .element: data-theme="ka-content" -->
+##  Expensive queries  <!-- .element: data-theme="ka-content" -->
 
-This is a new Markdown slide
+- Clients can create extremely complicated trees
+- Potential DOS attacks
+- Naive servers can implement things expensively

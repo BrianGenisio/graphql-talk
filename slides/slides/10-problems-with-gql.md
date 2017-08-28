@@ -1,3 +1,3 @@
-##  10. Problems with GQL?  <!-- .element: data-theme="ka-subtitle" -->
+##  Problems with GraphQL?  <!-- .element: data-theme="ka-subtitle" -->
 
-This is a new Markdown slide
+Nothing is perfect

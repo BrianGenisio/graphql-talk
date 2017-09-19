@@ -34,5 +34,5 @@ const mutationDoc = `
 `
 
 graphql(schema, mutationDoc, root)
-    //.then(() => graphql(schema, queryDoc, root))
+    .then(() => graphql(schema, queryDoc, root))
     .then(response => console.log(response));

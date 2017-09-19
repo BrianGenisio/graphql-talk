@@ -11,7 +11,7 @@ const document = `
     }
 `;
 
-fetch("http://localhost:52955", {
+fetch("http://localhost:51001/graphql", {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'

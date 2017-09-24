@@ -5,7 +5,6 @@
 | Resources         | X        | X     |
 | Return JSON       | X        | X     |
 | Multiple Endpoints|          | X     |
-| Infinite Nesting  |          | X     |
 | Types             | X        |       |
 | Introspection     | X        |       |
 | Arbitrary Data    | X        |       |

@@ -31,7 +31,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -80,7 +80,19 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+        buildcontrol:
+
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built from %sourceCommit% on branch %sourceBranch%'
+            pages:
+                options:
+                    remote: 'https://github.com/briangenisio/graphql-talk'
+                    branch: 'gh-pages'
+
+
 
 
     # Load all grunt tasks.
@@ -122,7 +134,7 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [

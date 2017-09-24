@@ -134,6 +134,11 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+    grunt.registerTask 'deploy',
+        'Deploy to Github Pages', [
+            'dist'
+            'buildcontrol'
+        ]
 
 
     # Define default task.

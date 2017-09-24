@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>GraphQL</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
+
+
+        <link rel="stylesheet" href="themes/ka-title.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/1-what-is-graphql.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/1-what-is-quick-example.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/1-what-is-graphql-server-agnostic.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/1-what-is-graphql-transport-agnostic.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-typed-api.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-fetch-only-what-you-need.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-fetch-a-tree-from-a-graph.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-fetch-a-tree-from-a-graph-2.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-fetch-a-tree-from-a-graph-3.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-fetch-multiple-trees-at-a-time.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-deprecation.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-documentation.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/2-what-problems-does-it-solve-vs-rest.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/3-client-examples.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-graphiql.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-simple-query.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-dig-deeper.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-dig-deeper-and-deeper.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-circular-references.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-filters.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-poly.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-variables.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-mutation.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-mutation-2.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-plain-js-example.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-react-example.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/3-client-examples-other-clients.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/4-servers.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-schema-resolvers-document-data.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-create-a-schema.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-create-resolvers.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-transform.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-wire-it-up-to-http.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-add-a-mutation.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-graphene.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/4-servers-graphene-our-implementation.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-markdown="slides/5-don-t-want-to-implement-a-server-graph-cool.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/7-tooling.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/7-tooling-apollo-dev-tools.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/7-tooling-apollo-optics.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/7-tooling-eslint.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/9-api-design-best-practices.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/9-api-design-best-practices-think-in-graphs.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/9-api-design-best-practices-avoid-redundancies.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/9-api-design-best-practices-singular-plural.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/9-api-design-best-practices-abstract-your-business-logic.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-infinite-nesting.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-infinite-nesting-2.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-infinite-nesting-3.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-expensive-queries.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-n-1.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-over-fetching-eg-ids.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/10-problems-with-gql-yet-another-api.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-markdown="slides/conclusion.md"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+
+          // Full list of configuration options available at:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+              { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
+              { src: 'js/theme-override.js', async: false}
+            ]
+          });
+
+        </script>
+    </body>
+
+</html>

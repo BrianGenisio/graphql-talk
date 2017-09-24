@@ -4,4 +4,4 @@
 
 [fetch-graphql-schema](https://github.com/yoctol/fetch-graphql-schema)
 
-![eslint-plugin-graphql](/resources/eslint.png)
+![eslint-plugin-graphql](resources/eslint.png)

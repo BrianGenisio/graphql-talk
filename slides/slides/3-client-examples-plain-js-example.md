@@ -3,18 +3,17 @@
 ```js
 const document = `
     query {
-      allFilms {
-        films {
-          title
+        sessions {
+        title
+        abstract
         }
-      }
     }
 `;
 
-fetch("http://localhost:51001/graphql", {
+fetch("/graphql", {
     headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
     },
     method: "POST",
     body: JSON.stringify({query: document})

@@ -1,37 +1,21 @@
-##  Circular references <!-- .element: data-theme="ka-content" -->
+##  Self references <!-- .element: data-theme="ka-content" -->
 
 ```
 query {
-  allPeople {
-    people {
-      id
+  sessions {
+    title
+    abstract
+
+    rooms {
       name
-      hairColor
-      homeworld {
-        name
-        population
-
-        filmConnection {
-          films {
-            id
-            title
-
-            characterConnection {
-              characters {
-                id
-                name
-              }
-            }
-          }
-        }
+      sessions {
+        title
       }
+    }
 
-      filmConnection {
-        films {
-          id
-          title
-        }
-      }
+    speakers {
+      firstName
+      lastName
     }
   }
 }

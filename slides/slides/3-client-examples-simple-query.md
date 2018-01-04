@@ -2,10 +2,8 @@
 
 ```
 query {
-  allPeople {
-    people {
-      name
-    }
+  sessions {
+    title
   }
 }
 ```

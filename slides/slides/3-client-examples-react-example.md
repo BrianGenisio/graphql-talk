@@ -1,46 +1,55 @@
 ##  React Example <!-- .element: data-theme="ka-content" -->
 
 ```js
-const PersonRow = ({person}) => <tr scope="row">
-    <th>{person.name}</th>
-    <td>{person.height}</td>
-    <td>{person.homeworld.name}</td>
+const SessionRow = ({session}) => <tr scope="row">
+    <td>{getSpeakers(session)} </td>
+    <th>{session.title}</th>
+    <td>{session.abstract}</td>
 </tr>;
 
-const People = ({data}) => {
-    const people = data.allPeople && data.allPeople.people || [];
+const Sessions = ({data}) => {
+    const sessions = data.sessions || [];
     return <div>
-      <h1>People in the Star Wars universe</h1>
+      <h1>Sessions at CodeMash</h1>
 
       <table className="table">
           <thead>
               <tr>
-                  <th>Name</th>
-                  <th>Height</th>
-                  <th>Homeworld</th>
+                  <th>Speaker</th>
+                  <th>Title</th>
+                  <th>Abstract</th>
               </tr>
           </thead>
           <tbody>
-              {people.map(person =>
-                  <PersonRow key={person.id} person={person} />
+              {sessions.map(session =>
+                  <SessionRow key={session.id} session={session} />
               )}
           </tbody>
       </table>
     </div>;
 }
 
-const getPeople = gql`
+const getSessions = gql`
 query {
-  allPeople {
-    people {
-      id
-      name
-      height
-      homeworld {
-        name
-      }
+  sessions {
+    id
+    speakers {
+      firstName
+      lastName
     }
+    title
+    abstract
   }
+
 }`;
-const PeopleWithData = graphql(getPeople)(People);
+const SessionsWithData = graphql(getSessions)(Sessions);
+
+
+function getSpeakers(session) {
+    const speakers = session.speakers || [];
+
+    return speakers
+        .map(speaker => `${speaker.firstName} ${speaker.lastName}`)
+        .join(', ');
+}
 ```

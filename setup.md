@@ -1,6 +1,6 @@
 # Setup
 - cd ~/code/graphql-talk
-- atom .
+- code .
 - open http://graphql.org/ IN PERSONAL BROWSER
 - open https://www.apollodata.com/
 
@@ -10,12 +10,17 @@
 ## Server examples
 - cd simple-server
 
-## swAPI
-- cd ../swapi-graphql
-- atom .
+## sw_api
+- cd ../swapi-graphql/
 - npm start
 - open http://localhost:51001/graphql
-- open http://localhost:51001/react-example.html
+
+## cm_api
+- cd ../cm_gql
+- code .
+- npm start
+- open http://localhost:4000/graphql
+- open http://localhost:4000/react-example.html
 
 ## Github GraphQL Explorer
 - open https://developer.github.com/v4/explorer/
@@ -28,6 +33,10 @@
 
 ## Graphene
 - open http://graphene-python.org/
-- pyCharm && close windows && open api/internal/graphql
+- cd ~/khan/webapp
+- code .
+- close windows
+- cmd-p web/response/graphql/schema.py
+- cmd-p content/graphql/topics.py
 
 ## FONT SIZES!!!

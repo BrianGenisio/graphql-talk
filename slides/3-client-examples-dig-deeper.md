@@ -2,22 +2,17 @@
 
 ```
 query {
-  allPeople {
-    people {
-      id
-      name
-      hairColor
-      homeworld {
-        name
-        population
-      }
+  sessions {
+    title
+    abstract
 
-      filmConnection {
-        films {
-          id
-          title
-        }
-      }
+    rooms {
+      name
+    }
+
+    speakers {
+      firstName
+      lastName
     }
   }
 }

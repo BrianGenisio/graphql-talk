@@ -18,4 +18,4 @@ express()
         rootValue: root,
         graphiql: true,
     }))
-    .listen(4000, () => console.log('Now browse to localhost:4000/graphql'));
+    .listen(4010, () => console.log('Now browse to localhost:4010/graphql'));

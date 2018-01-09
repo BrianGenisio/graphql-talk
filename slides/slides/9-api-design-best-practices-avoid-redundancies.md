@@ -5,7 +5,7 @@ query {
     person {
         parentNames
         parent {
-            names
+            name
         }
     }
 }
